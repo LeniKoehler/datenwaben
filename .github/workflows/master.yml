@@ -1,9 +1,9 @@
-name: Deploy master to Linux 2 AMI
+name: Deploy main to Linux 2 AMI
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   docker:
@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: lenikoehler/datenwaben:master
+          tags: lenikoehler/datenwaben:main
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
