@@ -78,6 +78,13 @@ var config = config || {
 			path: 'nrw',
 			badge: 'Alpha',
 			group: 'portal'
+		},
+		{
+			name: 'Heilbronn',
+			country: 'Germany',
+			path: 'heilbronn',
+			badge: 'Alpha',
+			group: 'portal'
 		}
 	],
 	templates: [
