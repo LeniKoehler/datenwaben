@@ -1,0 +1,32 @@
+{
+	"location": {
+		"country": "Germany",
+		"city": "Deutsche Bahn"
+	},
+	"portal": {
+		"url": "http://data.deutschebahn.com/dataset/24c5fc38-7355-40db-8193-69e0b395d0b7",
+		"title": "Flinkster",
+		"description": "Reportingdaten zu Flinkster.Dokmentation zur Datenlieferung: [20170516_Doku](http://download-data.deutschebahn.com/static/datasets/flinkster/20170516/20171605 DokumentationDatenOpenData.pdf)",
+		"license": "Creative Commons Namensnennung Lizenz",
+		"licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
+		"attribution": "Team Flinkster Reporting",
+		"author": "reporting@flinkster.de",
+		"created": "2016-06-14",
+		"updated": "2017-06-20"
+	},
+	"front": {
+		"textTop": "Leih dir eines von",
+		"textBottom": "Elektro-Autos aus",
+		"value": "92",
+		"unit": "",
+		"changePerDay": "",
+		"format": "int",
+		"background": "img/map.svg",
+		"color": "#c83737"
+	},
+	"back": {
+		"text": "Bei den über 1700 Autos bietet Flinkster auch Elekro-Autos an.",
+		"color": "#000000",
+		"cssClass": ""
+	}
+}
