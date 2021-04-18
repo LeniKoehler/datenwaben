@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
-        name: pull into datenwaben/develop
+        name: pull into datenwaben/develop-leni
         uses: actions/checkout@v2
         with:
-          repository: datenwaben/develop
-          path: develop
+          repository: lenikoehler/datenwaben/develop-leni
+          path: datenwaben/develop-leni
