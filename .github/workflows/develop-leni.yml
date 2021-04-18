@@ -10,9 +10,18 @@ jobs:
     name: pull repo from github
     runs-on: ubuntu-latest
     steps:
-      -
-        name: pull into datenwaben/develop-leni
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
         with:
           repository: lenikoehler/datenwaben
           path: develop-leni
+
+      - name: Copy files
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{secrets.USERNAME}}
+          key: ${{secrets.KEY}}
+          overwrite: true
+          rm: true
+          source: "./*"
+          target: "./datenwaben"
