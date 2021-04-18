@@ -17,11 +17,17 @@ jobs:
           key: ${{secrets.PEM}}
           port: ${{secrets.PORT}}
           script: |
-            echo 'List the running containers: ---------'
+            echo 'List the running containers: --------------------------'
             docker container ls
+            echo 'Show files in git dir: --------------------------------'
             cd git
             ls
+            echo 'Show files in datenwaben dir: -------------------------'
             cd datenwaben
             ls
+            echo 'Show github action workflow files in master branch: ---'
             cd .github/workflows
+            ls
+            echo 'Show github action workflow files in dev-leni branch: -'
+            git checkout develop-leni
             ls
