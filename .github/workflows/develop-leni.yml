@@ -16,4 +16,3 @@ jobs:
         with:
           repository: datenwaben/develop
           path: develop
-        run: ls
