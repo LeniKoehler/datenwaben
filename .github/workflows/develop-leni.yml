@@ -19,3 +19,9 @@ jobs:
           script: |
             echo 'List the running containers: ---------'
             docker container ls
+            cd git
+            ls
+            cd datenwaben
+            ls
+            cd .github/workflows
+            ls
