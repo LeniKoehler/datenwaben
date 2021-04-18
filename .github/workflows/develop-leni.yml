@@ -6,8 +6,8 @@ on:
       - develop-leni
 
 jobs:
-  shutdown:
-    name: Shut down containers first
+  checkout:
+    name: Checkout develop-leni branch
     runs-on: ubuntu-latest
     steps:
       - uses: appleboy/ssh-action@master
@@ -19,6 +19,8 @@ jobs:
           script: |
             echo 'List the running containers: --------------------------'
             docker container ls
+            echo 'Stop the running dev containers: ----------------------'
+            docker ps -q --filter ancestor="datenwaben-dev" | xargs -r docker stop
             echo 'Show files in git dir: --------------------------------'
             cd git
             ls
@@ -28,6 +30,10 @@ jobs:
             echo 'Show github action workflow files in master branch: ---'
             cd .github/workflows
             ls
-            echo 'Show github action workflow files in dev-leni branch: -'
+            echo 'Git pull from develop-leni branch: --------------------'
             git checkout develop-leni
-            ls
+            git pull
+            echo 'Start dev container: ----------------------------------'
+            docker run -dp 8000:80 datenwaben-dev
+            echo 'List running containers: -------------------------------'
+            docker container ls
