@@ -6,22 +6,16 @@ on:
       - develop-leni
 
 jobs:
-  pull:
-    name: pull repo from github
+  shutdown:
+    name: Shut down containers first
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          repository: lenikoehler/datenwaben
-          path: develop-leni
-
-      - name: Copy files
-        uses: appleboy/scp-action@master
+      - uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{secrets.USERNAME}}
-          key: ${{secrets.KEY}}
-          overwrite: true
-          rm: true
-          source: "./*"
-          target: "./datenwaben"
+          key: ${{secrets.PEM}}
+          port: ${{secrets.PORT}}
+          script: |
+            echo 'List the running containers: ---------'
+            docker container ls
