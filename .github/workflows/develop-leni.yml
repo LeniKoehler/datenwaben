@@ -27,9 +27,6 @@ jobs:
             echo 'Show files in datenwaben dir: -------------------------------'
             cd datenwaben
             ls
-            echo 'Show github action workflow files in master branch: ---------'
-            cd .github/workflows
-            ls
             echo 'Git pull from develop-leni branch: --------------------------'
             git checkout develop-leni
             git pull
