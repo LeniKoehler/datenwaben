@@ -1,0 +1,22 @@
+{
+	"meta": {
+		"mail": "bgloss@web.de",
+		"twitter": "",
+		"github": "https://github.com/tursics/data-dashboard/",
+		"showMenuCity": true,
+		"background": "heilbronn/HeilbronnBackground.jpg"
+	},
+	"data": {
+		"ckan": "http://datenwaben.de/herilbronn/ckan.php",
+		"ckanPackageShow": "http://datenwaben.de/berlin/ckanPackageShow.php",
+		"ckanDataset": "https://daten.berlin.de/datensaetze/",
+		"ckanRename": true,
+		"NOT_USED_feed": "http://datenwaben.de/berlin/rss.php",
+		"NOT_USED_feed_but_send_no_CORS_header": "http://daten.berlin.de/datensaetze/rss.xml"
+	},
+	"cards": [
+		"heilbronn/heilbronn.json",
+		"heilbronn/HHN.json"
+
+	]
+}
