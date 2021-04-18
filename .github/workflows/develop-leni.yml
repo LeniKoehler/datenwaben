@@ -14,5 +14,5 @@ jobs:
         name: pull into datenwaben/develop-leni
         uses: actions/checkout@v2
         with:
-          repository: lenikoehler/datenwaben/develop-leni
-          path: datenwaben/develop-leni
+          repository: lenikoehler/datenwaben@develop-leni
+          path: develop-leni
