@@ -1,0 +1,19 @@
+name: Deploy develop to Linux 2 AMI
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  pull:
+    name: pull repo from github
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: pull into datenwaben/develop
+        uses: actions/checkout@v2
+        with:
+          repository: datenwaben/develop
+          path: develop
+        run: ls
