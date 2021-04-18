@@ -17,23 +17,24 @@ jobs:
           key: ${{secrets.PEM}}
           port: ${{secrets.PORT}}
           script: |
-            echo 'List the running containers: --------------------------'
+            echo 'List the running containers: --------------------------------'
             docker container ls
-            echo 'Stop the running dev containers: ----------------------'
+            echo 'Stop the running dev containers: ----------------------------'
             docker ps -q --filter ancestor="datenwaben-dev" | xargs -r docker stop
-            echo 'Show files in git dir: --------------------------------'
+            echo 'Show files in git dir: --------------------------------------'
             cd git
             ls
-            echo 'Show files in datenwaben dir: -------------------------'
+            echo 'Show files in datenwaben dir: -------------------------------'
             cd datenwaben
             ls
-            echo 'Show github action workflow files in master branch: ---'
+            echo 'Show github action workflow files in master branch: ---------'
             cd .github/workflows
             ls
-            echo 'Git pull from develop-leni branch: --------------------'
+            echo 'Git pull from develop-leni branch: --------------------------'
             git checkout develop-leni
             git pull
-            echo 'Start dev container: ----------------------------------'
+            echo 'Start dev container: ----------------------------------------'
+            docker build -t datenwaben-dev .
             docker run -dp 8000:80 datenwaben-dev
-            echo 'List running containers: -------------------------------'
+            echo 'List running containers: -------------------------------------'
             docker container ls
