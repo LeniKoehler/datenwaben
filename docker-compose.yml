@@ -22,3 +22,19 @@ services:
         - "8008:80"
     volumes:
         - $PWD/app:/usr/share/nginx/html
+
+    dev-benjamin:
+      image: ./Dockerfile
+      restart: unless-stopped
+      ports:
+        - "8009:80"
+      volumes:
+        - $PWD/app:/usr/share/nginx/html
+
+    dev-dennis:
+      image: ./Dockerfile
+      restart: unless-stopped
+      ports:
+        - "8010:80"
+      volumes:
+        - $PWD/app:/usr/share/nginx/html
