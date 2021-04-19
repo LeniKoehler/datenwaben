@@ -4,15 +4,15 @@
     "city": "Heilbronn"
   },
   "portal": {
-    "url": "https://www.hs-heilbronn.de/?q=",
-    "title": "HHN",
-    "description": "1) Heilbronner Studium",
+    "url": "https://www.heilbronn.de/rathaus/aktuelles/open-data.html",
+    "title": "Heilbronn",
+    "description": "1) Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-    "attribution": "Heilbronner Studium Gruppe",
+    "attribution": "Heilbronner Gruppe",
     "author": " bgloss@web.de",
-    "created": "2021-04-18",
-    "updated": "2021-04-18"
+    "created": "2021-04-19",
+    "updated": "2021-04-19"
   },
   "front": {
     "textTop": "",
@@ -21,13 +21,13 @@
     "unit": "",
     "changePerDay": "",
     "format": "string",
-    "background": "heilbronn/HHN.svg",
-    "color": "#ffffff"
+    "background": "heilbronn/HNOpenData.svg",
+    "color": "",
+    "cssClass": ""
   },
   "back": {
-    "text": "Hier könnte ihre Werbung stehen:",
+    "text": "Hier entsteht die Heilbronner Open Data Plattform",
     "color": "#000000",
     "cssClass": ""
   }
-
 }

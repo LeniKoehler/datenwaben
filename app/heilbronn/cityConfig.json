@@ -15,8 +15,13 @@
 		"NOT_USED_feed_but_send_no_CORS_header": "http://daten.berlin.de/datensaetze/rss.xml"
 	},
 	"cards": [
+		"heilbronn/HNOpenData.json",
 		"heilbronn/heilbronn.json",
+		"heilbronn/HeilbronnmitLogo.json",
+		"heilbronn/HNOpenDatamitRot.json",
 		"heilbronn/HHN.json"
+
+
 
 	]
 }
