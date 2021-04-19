@@ -5,9 +5,9 @@ services:
     image: ./Dockerfile
     restart: unless-stopped
     ports:
-        - "8000:80"
+      - "8000:80"
     volumes:
-        - $PWD/app:/usr/share/nginx/html
+      - $PWD/app:/usr/share/nginx/html
   dev:
     image: ./Dockerfile
     restart: unless-stopped
@@ -19,22 +19,22 @@ services:
     image: ./Dockerfile
     restart: unless-stopped
     ports:
-        - "8008:80"
+      - "8008:80"
     volumes:
-        - $PWD/app:/usr/share/nginx/html
+      - $PWD/app:/usr/share/nginx/html
 
-    dev-benjamin:
-      image: ./Dockerfile
-      restart: unless-stopped
-      ports:
-        - "8009:80"
-      volumes:
-        - $PWD/app:/usr/share/nginx/html
+  dev-benjamin:
+    image: ./Dockerfile
+    restart: unless-stopped
+    ports:
+      - "8009:80"
+    volumes:
+      - $PWD/app:/usr/share/nginx/html
 
-    dev-dennis:
-      image: ./Dockerfile
-      restart: unless-stopped
-      ports:
-        - "8010:80"
-      volumes:
-        - $PWD/app:/usr/share/nginx/html
+  dev-dennis:
+    image: ./Dockerfile
+    restart: unless-stopped
+    ports:
+      - "8010:80"
+    volumes:
+      - $PWD/app:/usr/share/nginx/html
