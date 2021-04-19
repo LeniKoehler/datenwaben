@@ -32,6 +32,6 @@ jobs:
             git pull
             echo 'Start dev container: ----------------------------------------'
             docker build -t datenwaben-dev-dennis .
-            docker run -dp 8008:80 datenwaben-dev-dennis
+            docker run -dp 8010:80 datenwaben-dev-dennis
             echo 'List running containers: ------------------------------------'
             docker container ls
