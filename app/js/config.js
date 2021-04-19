@@ -84,7 +84,11 @@ var config = config || {
 			country: 'Germany',
 			path: 'heilbronn',
 			badge: 'Alpha',
+<<<<<<< HEAD
 			group: 'city'
+=======
+			group: 'portal'
+>>>>>>> f00c0a27632ab262275adb509de98c8033c0ad93
 		}
 	],
 	templates: [
