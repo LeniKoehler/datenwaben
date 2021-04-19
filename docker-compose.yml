@@ -1,17 +1,24 @@
 version: "3.7"
 
 services:
+  main:
+    image: ./Dockerfile
+    restart: unless-stopped
+    ports:
+        - "8000:80"
+    volumes:
+        - $PWD/app:/usr/share/nginx/html
   dev:
     image: ./Dockerfile
     restart: unless-stopped
     ports:
-      - "8000:80"
+      - "8001:80"
     volumes:
       - $PWD/app:/usr/share/nginx/html
-  master:
-    image: lenikoehler/datenwaben:master
+  dev-leni:
+    image: ./Dockerfile
     restart: unless-stopped
     ports:
-        - "8001:80"
+        - "8008:80"
     volumes:
         - $PWD/app:/usr/share/nginx/html
