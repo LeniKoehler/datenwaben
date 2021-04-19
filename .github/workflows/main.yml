@@ -1,13 +1,13 @@
-name: Deploy develop to Linux 2 AMI
+name: Deploy main to Linux 2 AMI
 
 on:
   push:
     branches:
-      - develop
+      - main
 
 jobs:
   checkout:
-    name: Checkout develop branch
+    name: Checkout main branch
     runs-on: ubuntu-latest
     steps:
       - uses: appleboy/ssh-action@master
@@ -19,19 +19,19 @@ jobs:
           script: |
             echo 'List the running containers: --------------------------------'
             docker container ls
-            echo 'Stop the running dev containers: ----------------------------'
-            docker ps -q --filter ancestor="datenwaben-dev" | xargs -r docker stop
+            echo 'Stop the running main containers: ---------------------------'
+            docker ps -q --filter ancestor="datenwaben-main" | xargs -r docker stop
             echo 'Show files in git dir: --------------------------------------'
             cd git
             ls
             echo 'Show files in datenwaben dir: -------------------------------'
             cd datenwaben
             ls
-            echo 'Git pull from develop branch: -------------------------------'
-            git checkout develop
+            echo 'Git pull from main branch: ----------------------------------'
+            git checkout main
             git pull
-            echo 'Start dev container: ----------------------------------------'
-            docker build -t datenwaben-dev .
-            docker run -dp 8001:80 datenwaben-dev
+            echo 'Start main container: ---------------------------------------'
+            docker build -t datenwaben-main .
+            docker run -dp 8000:80 datenwaben-main
             echo 'List running containers: ------------------------------------'
             docker container ls
