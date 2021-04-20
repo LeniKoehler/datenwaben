@@ -1,0 +1,33 @@
+{
+    "location": {
+      "country": "Germany",
+      "city": "Heilbronn"
+    },
+    "portal": {
+      "url": "https://www.heilbronn.de/startseite.html",
+      "title": "Heilbronn",
+      "description": "Heilbronn",
+      "license": "Creative Commons Namensnennung",
+      "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
+      "attribution": "Heilbronner Gruppe",
+      "author": " bgloss@web.de",
+      "created": "2021-04-18",
+      "updated": "2021-04-18"
+    },
+    "front": {
+      "textTop": "",
+      "textBottom": "",
+      "value": "",
+      "unit": "",
+      "changePerDay": "",
+      "format": "string",
+      "background": "heilbronn/5724f73d876dd49a4d4c4a4a9b4d3ca1a86ce1f6.svg",
+      "color": "",
+      "cssClass": ""
+    },
+    "back": {
+      "text": "Hier könnte ihre Werbung stehen:",
+      "color": "#000000",
+      "cssClass": ""
+    }
+  }
