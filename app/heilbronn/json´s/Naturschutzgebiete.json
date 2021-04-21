@@ -15,9 +15,9 @@
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "",
-    "textBottom": "",
-    "value": "",
+    "textTop": "Eine Fläche von ",
+    "textBottom": "sind Naturschutzgebiete",
+    "value": "980.000m²",
     "unit": "",
     "changePerDay": "",
     "format": "string",
@@ -26,7 +26,7 @@
     "cssClass": ""
   },
   "back": {
-    "text": "Eine Fläche von 980.000 m2 Heilbronns sind Naturschutzgebiete.",
+    "text": "Eine Fläche von 980.000 m² Heilbronns sind Naturschutzgebiete.",
     "color": "#000000",
     "cssClass": ""
   }

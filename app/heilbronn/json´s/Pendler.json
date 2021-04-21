@@ -15,9 +15,9 @@
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "",
-    "textBottom": "",
-    "value": "",
+    "textTop": "Täglich pendeln",
+    "textBottom": "Personen in die Gemeinde",
+    "value": "53.773 ",
     "unit": "",
     "changePerDay": "",
     "format": "string",

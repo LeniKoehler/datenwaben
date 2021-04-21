@@ -15,9 +15,9 @@
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "",
-    "textBottom": "",
-    "value": "",
+    "textTop": "Es gibt",
+    "textBottom": "Hunde in Heilbronn",
+    "value": "XXX",
     "unit": "",
     "changePerDay": "",
     "format": "string",

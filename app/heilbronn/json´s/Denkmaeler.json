@@ -15,9 +15,9 @@
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "",
-    "textBottom": "",
-    "value": "",
+    "textTop": "Es gibt",
+    "textBottom": "Baudenkmäler in Heilbronn",
+    "value": "377",
     "unit": "",
     "changePerDay": "",
     "format": "string",

@@ -15,9 +15,9 @@
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "",
-    "textBottom": "",
-    "value": "",
+    "textTop": "Im Schnitt hat jeder Einwohner",
+    "textBottom": "Wertstoffaufkommen pro Jahr",
+    "value": "150 kg",
     "unit": "",
     "changePerDay": "",
     "format": "string",
@@ -26,7 +26,7 @@
     "cssClass": ""
   },
   "back": {
-    "text": "Im Schnitt hat jeder Einwohner 150 kg Wertstoffaufkommen pro Jahr",
+    "text": "Im Schnitt hat jeder Einwohner 150 kg Wertstoffaufkommen pro Jahr.",
     "color": "#000000",
     "cssClass": ""
   }

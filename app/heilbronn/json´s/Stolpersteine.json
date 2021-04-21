@@ -15,9 +15,9 @@
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "",
-    "textBottom": "",
-    "value": "",
+    "textTop": "Auf den Straßen kann man",
+    "textBottom": "Stolpersteine finden",
+    "value": "204 ",
     "unit": "",
     "changePerDay": "",
     "format": "string",

@@ -15,9 +15,9 @@
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "",
-    "textBottom": "",
-    "value": "",
+    "textTop": "Es gibt",
+    "textBottom": "Wohngebäude in Heilbronn",
+    "value": "21.598",
     "unit": "",
     "changePerDay": "",
     "format": "string",

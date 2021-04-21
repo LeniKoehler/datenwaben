@@ -15,9 +15,9 @@
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "",
-    "textBottom": "",
-    "value": "",
+    "textTop": "In der Bibliothek gibt es",
+    "textBottom": "Bücher",
+    "value": "XXX ",
     "unit": "",
     "changePerDay": "",
     "format": "string",

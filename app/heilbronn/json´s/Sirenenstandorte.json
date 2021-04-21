@@ -15,9 +15,9 @@
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "",
-    "textBottom": "",
-    "value": "",
+    "textTop": "Nicht zu überhören:",
+    "textBottom": "gibt es in Heilbronn",
+    "value": "90 Sirenenstandorte",
     "unit": "",
     "changePerDay": "",
     "format": "string",

@@ -15,9 +15,9 @@
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "",
-    "textBottom": "",
-    "value": "",
+    "textTop": "Bei der EU-Wahl 2019 haben",
+    "textBottom": "Personen teilgenommen",
+    "value": "42.835 ",
     "unit": "",
     "changePerDay": "",
     "format": "string",

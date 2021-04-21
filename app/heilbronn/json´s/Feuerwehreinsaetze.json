@@ -15,9 +15,9 @@
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "",
-    "textBottom": "",
-    "value": "",
+    "textTop": "In Heilbronn gab es",
+    "textBottom": "Feuerwehreinsätze 2019",
+    "value": "1912",
     "unit": "",
     "changePerDay": "",
     "format": "string",
