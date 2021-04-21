@@ -1,0 +1,33 @@
+{
+  "location": {
+    "country": "Germany",
+    "city": "Heilbronn"
+  },
+  "portal": {
+    "url": "https://opendata.heilbronn.de/dataset/wohnen-heilbronn",
+    "title": "Heilbronn Wohngebäude",
+    "description": "1) Heilbronn",
+    "license": "Creative Commons Namensnennung",
+    "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
+    "attribution": "Heilbronner Gruppe",
+    "author": " bgloss@web.de",
+    "created": "2021-04-18",
+    "updated": "2021-04-18"
+  },
+  "front": {
+    "textTop": "Es gibt",
+    "textBottom": "Wohngebäude in Heilbronn",
+    "value": "21.598",
+    "unit": "",
+    "changePerDay": "",
+    "format": "string",
+    "background": "img/house.svg",
+    "color": "",
+    "cssClass": ""
+  },
+  "back": {
+    "text": "Es gibt 21.598 Wohngebäude in Heilbronn. Im Schnitt hat jeder Einwohner 40,38m² Wohnfläche.",
+    "color": "#000000",
+    "cssClass": ""
+  }
+}

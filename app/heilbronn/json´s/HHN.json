@@ -1,0 +1,33 @@
+{
+  "location": {
+    "country": "Germany",
+    "city": "Heilbronn"
+  },
+  "portal": {
+    "url": "https://www.hs-heilbronn.de/?q=",
+    "title": "HHN",
+    "description": "1) Heilbronner Studium",
+    "license": "Creative Commons Namensnennung",
+    "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
+    "attribution": "Heilbronner Studium Gruppe",
+    "author": " bgloss@web.de",
+    "created": "2021-04-18",
+    "updated": "2021-04-18"
+  },
+  "front": {
+    "textTop": "",
+    "textBottom": "",
+    "value": "",
+    "unit": "",
+    "changePerDay": "",
+    "format": "string",
+    "background": "heilbronn/Svg´s/HHN.svg",
+    "color": "#ffffff"
+  },
+  "back": {
+    "text": "Hier könnte ihre Werbung stehen:",
+    "color": "#000000",
+    "cssClass": ""
+  }
+
+}

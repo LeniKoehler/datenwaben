@@ -1,0 +1,33 @@
+{
+  "location": {
+    "country": "Germany",
+    "city": "Heilbronn"
+  },
+  "portal": {
+    "url": "https://opendata.heilbronn.de/dataset/studierende-heilbronn",
+    "title": "Heilbronn Studierende",
+    "description": "1) Heilbronn",
+    "license": "Creative Commons Namensnennung",
+    "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
+    "attribution": "Heilbronner Gruppe",
+    "author": " bgloss@web.de",
+    "created": "2021-04-18",
+    "updated": "2021-04-18"
+  },
+  "front": {
+    "textTop": "Universitätsstadt Heilbronn:",
+    "textBottom": "Studierende gibt es hier",
+    "value": "8597 ",
+    "unit": "",
+    "changePerDay": "",
+    "format": "string",
+    "background": "img/template.svg",
+    "color": "",
+    "cssClass": ""
+  },
+  "back": {
+    "text": "Universitätsstadt Heilbronn: 8597 Studierende gibt es hier.",
+    "color": "#000000",
+    "cssClass": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "location": {
+    "country": "Germany",
+    "city": "Heilbronn"
+  },
+  "portal": {
+    "url": "https://opendata.heilbronn.de/dataset/denkmalliste-heilbronn",
+    "title": "Heilbronn Denkmäler",
+    "description": "1) Heilbronn",
+    "license": "Creative Commons Namensnennung",
+    "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
+    "attribution": "Heilbronner Gruppe",
+    "author": " bgloss@web.de",
+    "created": "2021-04-18",
+    "updated": "2021-04-18"
+  },
+  "front": {
+    "textTop": "Es gibt",
+    "textBottom": "Baudenkmäler in Heilbronn",
+    "value": "377",
+    "unit": "",
+    "changePerDay": "",
+    "format": "string",
+    "background": "img/house.svg",
+    "color": "",
+    "cssClass": ""
+  },
+  "back": {
+    "text": "In Heilbronn gibt es 377 Baudenkmäler im Stadtgebiet sowie den Stadtteilen.",
+    "color": "#000000",
+    "cssClass": ""
+  }
+}

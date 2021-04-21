@@ -1,0 +1,37 @@
+name: Deploy develop-dennis to Linux 2 AMI
+
+on:
+  push:
+    branches:
+      - develop-dennis
+
+jobs:
+  checkout:
+    name: Checkout develop-dennis branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{secrets.USERNAME}}
+          key: ${{secrets.PEM}}
+          port: ${{secrets.PORT}}
+          script: |
+            echo 'List the running containers: --------------------------------'
+            docker container ls
+            echo 'Stop the running dev containers: ----------------------------'
+            docker ps -q --filter ancestor="datenwaben-dev-dennis" | xargs -r docker stop
+            echo 'Show files in git dir: --------------------------------------'
+            cd git
+            ls
+            echo 'Show files in datenwaben dir: -------------------------------'
+            cd datenwaben
+            ls
+            echo 'Git pull from develop-dennis branch: --------------------------'
+            git checkout develop-dennis
+            git pull
+            echo 'Start dev container: ----------------------------------------'
+            docker build -t datenwaben-dev-dennis .
+            docker run -dp 8010:80 datenwaben-dev-dennis
+            echo 'List running containers: ------------------------------------'
+            docker container ls
