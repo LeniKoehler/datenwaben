@@ -4,8 +4,8 @@
     "city": "Heilbronn"
   },
   "portal": {
-    "url": "https://www.heilbronn.de/startseite.html",
-    "title": "Heilbronn",
+    "url": "https://www.heilbronn.de/rathaus/aktuelles/open-data.html",
+    "title": "Heilbronn Hochschule",
     "description": "1) Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
@@ -21,12 +21,12 @@
     "unit": "",
     "changePerDay": "",
     "format": "string",
-    "background": "heilbronn/HeilbronnmitLogo.svg",
+    "background": "heilbronn/Svg´s/HN-hell.svg",
     "color": "",
     "cssClass": ""
   },
   "back": {
-    "text": "Hier könnte ihre Werbung stehen:",
+    "text": "Heilbronn.",
     "color": "#000000",
     "cssClass": ""
   }

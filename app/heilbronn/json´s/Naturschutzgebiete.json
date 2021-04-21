@@ -1,0 +1,33 @@
+{
+  "location": {
+    "country": "Germany",
+    "city": "Heilbronn"
+  },
+  "portal": {
+    "url": "https://opendata.heilbronn.de/dataset/wasserschutzgebiete-heilbronn",
+    "title": "Heilbronn Naturschutzgebiete",
+    "description": "1) Heilbronn",
+    "license": "Creative Commons Namensnennung",
+    "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
+    "attribution": "Heilbronner Gruppe",
+    "author": " bgloss@web.de",
+    "created": "2021-04-18",
+    "updated": "2021-04-18"
+  },
+  "front": {
+    "textTop": "",
+    "textBottom": "",
+    "value": "",
+    "unit": "",
+    "changePerDay": "",
+    "format": "string",
+    "background": "img/tree.svg",
+    "color": "",
+    "cssClass": ""
+  },
+  "back": {
+    "text": "Eine Fläche von 980.000 m2 Heilbronns sind Naturschutzgebiete.",
+    "color": "#000000",
+    "cssClass": ""
+  }
+}

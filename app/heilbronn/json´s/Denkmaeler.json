@@ -4,8 +4,8 @@
     "city": "Heilbronn"
   },
   "portal": {
-    "url": "https://www.heilbronn.de/startseite.html",
-    "title": "Heilbronn",
+    "url": "https://opendata.heilbronn.de/dataset/denkmalliste-heilbronn",
+    "title": "Heilbronn Denkmäler",
     "description": "1) Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
@@ -21,12 +21,12 @@
     "unit": "",
     "changePerDay": "",
     "format": "string",
-    "background": "heilbronn/HNOpenDatamitRot.svg",
+    "background": "img/house.svg",
     "color": "",
     "cssClass": ""
   },
   "back": {
-    "text": "Hier entsteht die Heilbronner Open Data Plattform",
+    "text": "In Heilbronn gibt es 377 Baudenkmäler im Stadtgebiet sowie den Stadtteilen.",
     "color": "#000000",
     "cssClass": ""
   }

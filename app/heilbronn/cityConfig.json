@@ -15,11 +15,29 @@
 		"NOT_USED_feed_but_send_no_CORS_header": "http://daten.berlin.de/datensaetze/rss.xml"
 	},
 	"cards": [
-		"heilbronn/80d08e85ad56acfc9349b98966e785a9e39a1d1a.json",
-		"heilbronn/f76bd61932658209bde107347a4f238c72c507f6.json",
-		"heilbronn/HHN.json",
-		"heilbronn/HNOpenData.json",
-		"heilbronn/HNOpenDatamitRot.json",
-		"heilbronn/water.json"
+		"heilbronn/json´s/HeilbronnmitLogo.json",
+		"heilbronn/json´s/Heilbronn.json",
+		"heilbronn/json´s/HHN.json",
+		"heilbronn/json´s/HNOpenData.json",
+		"heilbronn/json´s/HNOpenDatamitRot.json",
+		"heilbronn/json´s/Water.json",
+		"heilbronn/json´s/Naturschutzgebiete.json",
+		"heilbronn/json´s/Hhnhell.json",
+		"heilbronn/json´s/hhndunkelblau.json",
+		"heilbronn/json´s/Hnhell.json",
+		"heilbronn/json´s/Denkmaeler.json",
+		"heilbronn/json´s/Wasserverbrauch.json",
+		"heilbronn/json´s/Feuerwehreinsaetze.json",
+		"heilbronn/json´s/Wohngebaeude.json",
+		"heilbronn/json´s/Stolpersteine.json",
+		"heilbronn/json´s/Namensgebung.json",
+		"heilbronn/json´s/Pendler.json",
+		"heilbronn/json´s/Wahlbeteiligung.json",
+		"heilbronn/json´s/Wertstoffaufkommen.json",
+		"heilbronn/json´s/Sirenenstandorte.json",
+		"heilbronn/json´s/Studierende.json",
+		"heilbronn/json´s/Hunde.json",
+		"heilbronn/json´s/Stadtbibliothek.json",
+		"heilbronn/json´s/Fahrradweg.json"
 	]
 }
