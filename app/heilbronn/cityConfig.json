@@ -1,6 +1,5 @@
 {
 	"meta": {
-
 		"mail": "bgloss@web.de",
 		"twitter": "",
 		"github": "https://github.com/tursics/data-dashboard/",
@@ -16,14 +15,10 @@
 		"NOT_USED_feed_but_send_no_CORS_header": "http://daten.berlin.de/datensaetze/rss.xml"
 	},
 	"cards": [
-		"heilbronn/HNOpenData.json",
-		"heilbronn/heilbronn.json",
-		"heilbronn/HeilbronnmitLogo.json",
-		"heilbronn/HNOpenDatamitRot.json",
+		"heilbronn/80d08e85ad56acfc9349b98966e785a9e39a1d1a.json",
+		"heilbronn/f76bd61932658209bde107347a4f238c72c507f6.json",
 		"heilbronn/HHN.json",
-		"heilbronn/water.json"
-
-
-
+		"heilbronn/HNOpenData.json",
+		"heilbronn/HNOpenDatamitRot.json"
 	]
 }

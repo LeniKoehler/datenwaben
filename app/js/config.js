@@ -82,10 +82,9 @@ var config = config || {
 		{
 			name: 'Heilbronn',
 			country: 'Germany',
-			path: 'Heilbronn',
+			path: 'heilbronn',
 			badge: 'Alpha',
 			group: 'city'
-
 		}
 	],
 	templates: [
