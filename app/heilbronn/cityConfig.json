@@ -15,16 +15,20 @@
 		"NOT_USED_feed_but_send_no_CORS_header": "http://daten.berlin.de/datensaetze/rss.xml"
 	},
 	"cards": [
+
 		"heilbronn/json´s/HeilbronnmitLogo.json",
 		"heilbronn/json´s/Heilbronn.json",
-		"heilbronn/json´s/HHN.json",
 		"heilbronn/json´s/HNOpenData.json",
 		"heilbronn/json´s/HNOpenDatamitRot.json",
+		"heilbronn/json´s/Hnhell.json",
+
+		"heilbronn/json´s/HHN.json",
+		"heilbronn/json´s/Hhnhell.json",
+		"heilbronn/json´s/Hhndunkelblau.json",
+		"heilbronn/json´s/Hhngraublau.json",
+
 		"heilbronn/json´s/Wasserschutzgebiete.json",
 		"heilbronn/json´s/Naturschutzgebiete.json",
-		"heilbronn/json´s/Hhnhell.json",
-		"heilbronn/json´s/hhndunkelblau.json",
-		"heilbronn/json´s/Hnhell.json",
 		"heilbronn/json´s/Denkmaeler.json",
 		"heilbronn/json´s/Wasserverbrauch.json",
 		"heilbronn/json´s/Feuerwehreinsaetze.json",
