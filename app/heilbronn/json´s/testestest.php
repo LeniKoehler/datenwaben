@@ -23,6 +23,7 @@
 
 	$url = 'http://www.wienerlinien.at/ogd_realtime/trafficInfoList?sender='.$keyDebug.'&name=aufzugsinfo';
 	$json = file_get_contents($url);
+	alert(file_get_contents($url))
 	$data = json_decode($json, TRUE);
 	$count = 0;
 

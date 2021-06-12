@@ -7,8 +7,8 @@
 		"background": "heilbronn/HeilbronnBackground.jpg"
 	},
 	"data": {
-		"ckan": "http://datenwaben.de/herilbronn/ckan.php",
-		"ckanPackageShow": "http://datenwaben.de/berlin/ckanPackageShow.php",
+		"ckan": "http://127.0.0.1:5500/app/heilbronn/ckan.php",
+		"ckanPackageShow": "http://127.0.0.1:5500/app/heilbronn/ckanPackageShow.php",
 		"ckanDataset": "https://daten.berlin.de/datensaetze/",
 		"ckanRename": true,
 		"NOT_USED_feed": "http://datenwaben.de/berlin/rss.php",
@@ -42,6 +42,7 @@
 		"heilbronn/json´s/Studierende.json",
 		"heilbronn/json´s/Hunde.json",
 		"heilbronn/json´s/Stadtbibliothek.json",
-		"heilbronn/json´s/Fahrradweg.json"
+		"heilbronn/json´s/Fahrradweg.json",
+		"heilbronn/json´s/testestest.php"
 	]
 }
