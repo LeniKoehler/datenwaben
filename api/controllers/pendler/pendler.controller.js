@@ -50,6 +50,7 @@ async function getCsvData(resourceUrl) {
   const objWithEinpendler = getEinpendler(data);
   console.log({ objWithEinpendler });
 
+  // This is used to inspect rawCsvData and fiddle with https://csv.js.org/convert/
   fs.writeFileSync(`${__dirname}\data.csv`, data);
 
   return objWithEinpendler;
