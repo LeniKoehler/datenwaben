@@ -43,6 +43,7 @@ async function getCsvData(resourceUrl) {
     throw new Error("Failed to fetch csv data");
   }
 
+  // This can be removed. Has been added for testing REGEX.
   const numbers = data.match(/\d\d.\d\d\d/gm);
   console.log({ numbers });
 
