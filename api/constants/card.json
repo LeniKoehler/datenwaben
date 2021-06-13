@@ -1,0 +1,34 @@
+{
+    "location": {
+      "country": "Germany",
+      "city": "Heilbronn"
+    },
+    "portal": {
+      "url": "",
+      "title": "Heilbronn Fahrradweg",
+      "description": "1) Heilbronn",
+      "license": "Creative Commons Namensnennung",
+      "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
+      "attribution": "Heilbronner Gruppe",
+      "author": " bgloss@web.de",
+      "created": "2021-04-18",
+      "updated": "2021-04-18"
+    },
+    "front": {
+      "textTop": "Die Stadt Heilbronn besitzt",
+      "textBottom": "Fahrradweg",
+      "value": "XXX m",
+      "unit": "",
+      "changePerDay": "",
+      "format": "string",
+      "background": "img/bicycle.svg",
+      "color": "",
+      "cssClass": ""
+    },
+    "back": {
+      "text": "Die Stadt Heilbronn besitzt xxx Meter Fahrradweg.\n",
+      "color": "#000000",
+      "cssClass": ""
+    }
+  }
+  
