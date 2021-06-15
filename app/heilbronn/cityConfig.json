@@ -13,17 +13,8 @@
 	},
 	"cards": [
 
-		"heilbronn/json´s/HeilbronnmitLogo.json",
-		"heilbronn/json´s/Heilbronn.json",
-		"heilbronn/json´s/HNOpenData.json",
-		"heilbronn/json´s/HNOpenDatamitRot.json",
 		"heilbronn/json´s/HNhell.json",
-
-		"heilbronn/json´s/HHN.json",
-		"heilbronn/json´s/Hhnhell.json",
 		"heilbronn/json´s/Hhndunkelblau.json",
-		"heilbronn/json´s/Hhngraublau.json",
-
 		"heilbronn/json´s/Steuern.json",
 		"heilbronn/json´s/NeckarWasser.json",
 		"heilbronn/json´s/Wasserschutzgebiete.json",
