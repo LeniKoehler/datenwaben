@@ -6,6 +6,8 @@ const express = require("express");
 
 const PendlerController = require("../controllers/pendler/pendler.controller");
 
+// Declarations -----------------------------------------------------------------------------------
+
 const router = express.Router();
 
 router.get("/", async (req, res, next) => {

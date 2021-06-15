@@ -93,7 +93,7 @@ async function getPendlerData() {
 
 async function createCard() {
   const objWithEinpendler = await getPendlerData();
-  rawCard.front.textTop = "Leni loves JavaScript";
+  rawCard.front.textTop = "Dynamically fetched data!";
   rawCard.front.textBottom = "yay!";
   rawCard.front.value = objWithEinpendler[EINPENDLER];
   return rawCard;
