@@ -12,6 +12,9 @@
 		"ckanDataset": "https://daten.berlin.de/datensaetze/"
 	},
 	"cards": [
-		"/api/pendler"
+		"api/pendler",
+		"api/elections/eu",
+		"api/twitter/heilbronn",
+		"heilbronn/json´s/Wasserschutzgebiete.json"
 	]
 }

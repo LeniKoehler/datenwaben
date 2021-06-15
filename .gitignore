@@ -1,3 +1,6 @@
+# Prevent leaking secret information
+**/.env
+
 *.db
 .idea*
 **/node_modules

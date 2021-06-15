@@ -14,45 +14,46 @@ const rawCard = require("../../constants/card.json");
  * TODO: Change PENDLER to english.
  */
 
-const URL_PENDLER =
-  "https://opendata.heilbronn.de/api/3/action/package_show?id=bedd22fc-6e82-4ead-bdd8-cd7ec3b8ff2e";
+const URL =
+  "https://opendata.heilbronn.de/api/3/action/package_show?id=295cf14f-ab80-4ee5-b193-d90f86a3b2d3";
 
 /**
  * Used to access data from the unstructured .csv provided by Heilbronn.
  * TODO: Translate the declaration.
  */
 
-const EINPENDLER = "Einpendler in die Gemeinde";
+const VALUE = "W�hler";
 
 // Functions --------------------------------------------------------------------------------------
 
-function getEinpendler(csvData) {
+function getValue(csvData) {
   const records = parse(csvData, {
     columns: true,
     delimiter: ";",
-    from_line: 2,
+    from_line: 1,
     skip_lines_with_error: true,
     skip_empty_lines: true,
   });
-  return records[1];
+  return records[0];
 }
 
 async function getCsvData(resourceUrl) {
   const { data } = await axios.get(resourceUrl);
+
   if (!data) {
     throw new Error("Failed to fetch csv data");
   }
 
-  const objWithEinpendler = getEinpendler(data);
+  const objWithValue = getValue(data);
 
   // This is used to inspect rawCsvData and fiddle with https://csv.js.org/convert/
   fs.writeFileSync(`${__dirname}/data.csv`, data);
 
-  return objWithEinpendler;
+  return objWithValue;
 }
 
-async function getPendlerData() {
-  const { data } = await axios.get(URL_PENDLER);
+async function getAndParseData() {
+  const { data } = await axios.get(URL);
   if (!data) {
     throw new Error("Failed to fetch Pendler data");
   }
@@ -79,17 +80,19 @@ async function getPendlerData() {
     throw new Error("Expected resources to be of type Array");
   }
 
-  const objWithEinpendler = await getCsvData(resources[0].url);
+  const objWithValue = await getCsvData(resources[0].url);
 
-  return objWithEinpendler;
+  return objWithValue;
 }
 
 async function createCard() {
-  const objWithEinpendler = await getPendlerData();
-  rawCard.front.textTop = "Täglich pendeln";
-  rawCard.front.textBottom = "Personen in die Stadt ein.";
-  rawCard.front.value = objWithEinpendler[EINPENDLER];
-  rawCard.front.background = "img/train.svg"
+  const objWithValue = await getAndParseData();
+  rawCard.portal.url = "https://opendata.heilbronn.de/dataset/europawahl-2019";
+  rawCard.back.text = "Alle Daten zur Europawahl sind im OpenData Portal Heilbronn.";
+  rawCard.front.textTop = "Bei der Europawahl haben";
+  rawCard.front.textBottom = "Personen teilgenommen.";
+  rawCard.front.value = objWithValue[VALUE];
+  rawCard.front.background = "img/logo.svg"
   return rawCard;
 }
 
