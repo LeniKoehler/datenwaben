@@ -5,7 +5,7 @@ const axios = require("axios")
 
 // Absolute dependencies --------------------------------------------------------------------------
 
-const pendler = require("./api/routes/pendler.route")
+const pendler = require("./api/routes/route")
 
 // Declarations -----------------------------------------------------------------------------------
 
