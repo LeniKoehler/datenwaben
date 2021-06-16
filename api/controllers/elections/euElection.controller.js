@@ -15,7 +15,6 @@ const URL =
 
 /**
  * Used to access data from the unstructured .csv provided by Heilbronn.
- * TODO: Translate the declaration.
  */
 
 const VALUE = "W�hler";

@@ -32,7 +32,7 @@ router.get("/elections/eu", async (req, res, next) => {
 
   router.get("/twitter/heilbronn", async (req, res, next) => {
     try {
-      console.log("INFO Pendler card will be created");
+      console.log("INFO card will be created");
       return res.json(await TwitterHnController.createCard());
     } catch (error) {
       return next(error);
