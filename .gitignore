@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 # Prevent leaking secret information
 **/.env
 
 *.db
+=======
+*.db
+**/.env
+>>>>>>> c977a20dd1fbb63dd4356e0a6817d0243ce525a5
 .idea*
 **/node_modules

@@ -7,6 +7,7 @@
 		"background": "heilbronn/HeilbronnBackground.jpg"
 	},
 	"data": {
+<<<<<<< HEAD
 		"ckan": "localhost:5500/app/heilbronn/ckan.php", 
 		"ckanPackageShow": "localhost:5500/app/heilbronn/ckanPackageShow.php",
 		"ckanDataset": "https://daten.berlin.de/datensaetze/"
@@ -14,6 +15,18 @@
 	"cards": [
 		"heilbronn/json´s/HNhell.json",
 		"heilbronn/json´s/Hhndunkelblau.json",
+=======
+		"ckan": "http://datenwaben.de/heilbronn/ckan.php",
+		"ckanPackageShow": "http://datenwaben.de/heilbronn/ckanPackageShow.php",
+		"ckanDataset": "https://opendata.heilbronn.de/dataset/"
+	},
+	"cards": [
+
+		"heilbronn/json´s/HNhell.json",
+		"heilbronn/json´s/Hhndunkelblau.json",
+		"heilbronn/json´s/Steuern.json",
+		"heilbronn/json´s/NeckarWasser.json",
+>>>>>>> c977a20dd1fbb63dd4356e0a6817d0243ce525a5
 		"heilbronn/json´s/Wasserschutzgebiete.json",
 		"heilbronn/json´s/Naturschutzgebiete.json",
 		"heilbronn/json´s/Denkmaeler.json",
