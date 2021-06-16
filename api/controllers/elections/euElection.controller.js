@@ -10,10 +10,6 @@ const rawCard = require("../../constants/card.json");
 
 // Declarations -----------------------------------------------------------------------------------
 
-/**
- * TODO: Change PENDLER to english.
- */
-
 const URL =
   "https://opendata.heilbronn.de/api/3/action/package_show?id=295cf14f-ab80-4ee5-b193-d90f86a3b2d3";
 
