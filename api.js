@@ -24,7 +24,7 @@ const hc = new HashtagCount({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
-var hashtags = ["btc"];
+var hashtags = ["heilbronn"];
 
 var interval = "2 seconds";
 
@@ -38,8 +38,8 @@ var intervalCb = function (err, results) {
   } else {
     const value = Object.values(results).pop();
 
-    if (value.btc) {
-      sumBtc += value.btc;
+    if (value.heilbronn) {
+      sumBtc += value.heilbronn;
     }
 
     const cssQuery = ".twitter-element > div > span";
