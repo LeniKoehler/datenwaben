@@ -87,7 +87,7 @@ async function createCard() {
   rawCard.front.textTop = "Bei der Europawahl haben";
   rawCard.front.textBottom = "Personen teilgenommen.";
   rawCard.front.value = objWithValue[VALUE];
-  rawCard.front.background = "img/logo.svg"
+  rawCard.front.background = "heilbronn/Svg´s/europa-neu.svg"
   return rawCard;
 }
 
