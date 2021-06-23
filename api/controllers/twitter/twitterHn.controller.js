@@ -8,7 +8,7 @@ const rawCard = require("../../constants/card.json");
 
 async function createCard(req) {
   const deepCopy = JSON.parse(JSON.stringify(rawCard))
-  deepCopy.front.textTop = "seit Seitenaufruf gab es ";
+  deepCopy.front.textTop = "seit Serverstart gab es ";
   deepCopy.front.textBottom = "Tweets mit #heilbronn";
   deepCopy.front.value = "Loading ...";
   deepCopy.front.background = "heilbronn/Svg´s/twitter.svg";
