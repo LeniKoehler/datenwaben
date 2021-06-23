@@ -1,0 +1,33 @@
+{
+  "location": {
+    "country": "Germany",
+    "city": "Heilbronn"
+  },
+  "portal": {
+    "url": "https://www.hs-heilbronn.de/?q=",
+    "title": "Steuern",
+    "description": "Steuern",
+    "license": "Creative Commons Namensnennung",
+    "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
+    "attribution": "Heilbronner Studium Gruppe",
+    "author": " bgloss@web.de",
+    "created": "2021-06-05",
+    "updated": "2021-06-05"
+  },
+  "front": {
+    "textTop": "Die Stadt nimmt gerade",
+    "textBottom": "Steuern ein",
+    "value": "",
+    "unit": "€",
+    "changePerDay": "1871.87",
+    "format": "euro",
+    "background": "heilbronn/Svg´s/coin.svg",
+    "color": "none"
+  },
+  "back": {
+    "text": "Hier könnte ihre Werbung stehen:",
+    "color": "#000000",
+    "cssClass": ""
+  }
+
+}

@@ -16,7 +16,7 @@
 		"updated": "2016-02-29"
 	},
 	"front": {
-	"textTop": "Treppen laufen!",
+	"textTop": "Treppen laufen! :)",
 <?php
 	$keyDebug = 'Ow2xzSXEjv';
 	$keyRelease = 'f8qseeIyK7';
@@ -45,7 +45,7 @@
 		"color": "#008033"
 	},
 	"back": {
-		"text": "Die Echtzeitdaten der Wiener Linien enthalten nicht nur die aktuellen Daten zu den Aufzügen.",
+		"text": "hi Die Echtzeitdaten der Wiener Linien enthalten nicht nur die aktuellen Daten zu den Aufzügen.",
 		"color": "#000000",
 		"cssClass": ""
 	}

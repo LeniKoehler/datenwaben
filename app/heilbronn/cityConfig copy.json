@@ -7,33 +7,29 @@
 		"background": "heilbronn/HeilbronnBackground.jpg"
 	},
 	"data": {
-		"ckan": "http://datenwaben.de/heilbronn/ckan.php",
-		"ckanPackageShow": "http://datenwaben.de/heilbronn/ckanPackageShow.php",
-		"ckanDataset": "https://opendata.heilbronn.de/dataset/"
+		"ckan": "localhost:5500/app/heilbronn/ckan.php", 
+		"ckanPackageShow": "localhost:5500/app/heilbronn/ckanPackageShow.php",
+		"ckanDataset": "https://daten.berlin.de/datensaetze/"
 	},
 	"cards": [
-
+		"/api/pendler",
+		"heilbronn/json´s/9fd1e88d-53be-4002-8f61-c753486c6ac3.php",
 		"heilbronn/json´s/HNhell.json",
 		"heilbronn/json´s/Hhndunkelblau.json",
-		"heilbronn/json´s/Steuern.json",
-		"heilbronn/json´s/NeckarWasser.json",
+		"heilbronn/json´s/Wasserschutzgebiete.json",
 		"heilbronn/json´s/Naturschutzgebiete.json",
 		"heilbronn/json´s/Denkmaeler.json",
 		"heilbronn/json´s/Wasserverbrauch.json",
 		"heilbronn/json´s/Feuerwehreinsaetze.json",
 		"heilbronn/json´s/Wohngebaeude.json",
-		"heilbronn/json´s/Namensgebung.json",
-		"api/pendler",
-		"api/elections/eu",
-		"api/twitter/heilbronn",
-		"heilbronn/json´s/Wasserschutzgebiete.json",
-		"heilbronn/json´s/Hunde.json",
-		"heilbronn/json´s/Stadtbibliothek.json",
-		"heilbronn/json´s/Fahrradweg.json",
 		"heilbronn/json´s/Stolpersteine.json",
+		"heilbronn/json´s/Namensgebung.json",
+		"heilbronn/json´s/Wahlbeteiligung.json",
 		"heilbronn/json´s/Wertstoffaufkommen.json",
 		"heilbronn/json´s/Sirenenstandorte.json",
-		"heilbronn/json´s/Studierende.json",		
-		"heilbronn/json´s/Team1_Wabe.json"
+		"heilbronn/json´s/Studierende.json",
+		"heilbronn/json´s/Hunde.json",
+		"heilbronn/json´s/Stadtbibliothek.json",
+		"heilbronn/json´s/Fahrradweg.json"
 	]
 }
