@@ -4,15 +4,15 @@
     "city": "Heilbronn"
   },
   "portal": {
-    "url": "https://www.heilbronn.de/startseite.html",
+    "url": "https://www.heilbronn.de/rathaus/aktuelles/open-data.html",
     "title": "Heilbronn",
     "description": "1) Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
     "attribution": "Heilbronner Gruppe",
     "author": " bgloss@web.de",
-    "created": "2021-04-18",
-    "updated": "2021-04-18"
+    "created": "2021-04-19",
+    "updated": "2021-04-19"
   },
   "front": {
     "textTop": "",
@@ -21,7 +21,7 @@
     "unit": "",
     "changePerDay": "",
     "format": "string",
-    "background": "heilbronn/Svg´s/HNOpenDatamitRot.svg",
+    "background": "heilbronn/svg/HNOpenData.svg",
     "color": "",
     "cssClass": ""
   },

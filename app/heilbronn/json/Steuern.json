@@ -21,7 +21,7 @@
     "unit": "€",
     "changePerDay": "1871.87",
     "format": "euro",
-    "background": "heilbronn/Svg´s/coin.svg",
+    "background": "heilbronn/svg/coin.svg",
     "color": "none"
   },
   "back": {

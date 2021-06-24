@@ -10,7 +10,7 @@
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
     "attribution": "Heilbronner Gruppe",
-    "author": " bgloss@web.de",
+    "author": "mkoehle2@stud.hs-heilbronn.de",
     "created": "2021-04-18",
     "updated": "2021-04-18"
   },
@@ -21,7 +21,7 @@
     "unit": "",
     "changePerDay": "",
     "format": "string",
-    "background": "heilbronn/Svg´s/HHNgraublau.svg",
+    "background": "heilbronn/svg/HHN-hell.svg",
     "color": "",
     "cssClass": ""
   },

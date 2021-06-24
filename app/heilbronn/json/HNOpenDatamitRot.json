@@ -4,13 +4,13 @@
     "city": "Heilbronn"
   },
   "portal": {
-    "url": "https://www.hs-heilbronn.de/?q=",
-    "title": "Heilbronn Hochschule",
+    "url": "https://www.heilbronn.de/startseite.html",
+    "title": "Heilbronn",
     "description": "1) Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
     "attribution": "Heilbronner Gruppe",
-    "author": "mkoehle2@stud.hs-heilbronn.de",
+    "author": " bgloss@web.de",
     "created": "2021-04-18",
     "updated": "2021-04-18"
   },
@@ -21,12 +21,12 @@
     "unit": "",
     "changePerDay": "",
     "format": "string",
-    "background": "heilbronn/Svg´s/HHN-hell.svg",
+    "background": "heilbronn/svg/HNOpenDatamitRot.svg",
     "color": "",
     "cssClass": ""
   },
   "back": {
-    "text": "Hochschule Heilbronn.",
+    "text": "Hier entsteht die Heilbronner Open Data Plattform",
     "color": "#000000",
     "cssClass": ""
   }
