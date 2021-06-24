@@ -24,7 +24,7 @@ const hc = new HashtagCount({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
-var hashtags = ["heilbronn"];
+var hashtags = ["btc"];
 
 var interval = "2 seconds";
 
@@ -44,11 +44,11 @@ var intervalCb = function (err, results) {
 
     const cssQuery = ".twitter-element > div > span";
 
-    const msg = {}
+    const msg = {};
     msg.sumBtc = {
-        value: sumBtc,
-        query: cssQuery
-    }
+      value: sumBtc,
+      query: cssQuery,
+    };
 
     io.emit("twitter-new-tweet", { sum: sumBtc, cssQuery }); // This will emit the event to all connected sockets
   }
@@ -64,6 +64,22 @@ hc.start({
 
 app.use(express.static("app"));
 app.use("/api", routes);
+
+app.get("/twitter/test/:value", (req, res, next) => {
+  const { value } = req.params;
+  console.log("INFO /twitter/test/%s", value);
+  if (!value) {
+    return res.status(400).send("No value provided");
+  }
+
+  try {
+    sumBtc += Number.parseInt(value);    
+  } catch (error) {
+    console.error(error)
+  }
+
+  io.emit("twitter-new-tweet", { sum: sumBtc, cssQuery }); // This will emit the event to all connected sockets
+});
 
 io.on("connection", (socket) => {
   console.log("a user connected");
