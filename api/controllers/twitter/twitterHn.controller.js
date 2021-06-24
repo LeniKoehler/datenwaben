@@ -11,7 +11,7 @@ async function createCard(req) {
   deepCopy.front.textTop = "seit Serverstart gab es ";
   deepCopy.front.textBottom = "Tweets mit #heilbronn";
   deepCopy.front.value = "Loading ...";
-  deepCopy.front.background = "heilbronn/Svg´s/twitter.svg";
+  deepCopy.front.background = "heilbronn/svg/twitter.svg";
   deepCopy.front.cssClass = "twitter-element";
   deepCopy.back.text = "Schreibe einen Tweet mit #heilbronn und sieh wie der Zähler sich erhöht" 
   return deepCopy;
