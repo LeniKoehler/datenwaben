@@ -1,0 +1,34 @@
+{
+    "location": {
+      "country": "Germany",
+      "city": "Heilbronn"
+    },
+    "portal": {
+      "url": "",
+      "title": "Default - pls change me",
+      "description": "Default - pls change me",
+      "license": "Creative Commons Namensnennung",
+      "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
+      "attribution": "Benjamin Gloß, Dennis Ates, Magdalena Köhler",
+      "author": "magdalenakoehler@outlook.com",
+      "created": "2021-04-18",
+      "updated": "2021-04-18"
+    },
+    "front": {
+      "textTop": "Default - pls change me",
+      "textBottom": "Default - pls change me",
+      "value": "Default - pls change me",
+      "unit": "",
+      "changePerDay": "",
+      "format": "string",
+      "background": "img/bicycle.svg",
+      "color": "",
+      "cssClass": ""
+    },
+    "back": {
+      "text": "Default - pls change me",
+      "color": "#000000",
+      "cssClass": ""
+    }
+  }
+  
