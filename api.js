@@ -24,7 +24,7 @@ const hc = new HashtagCount({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
-const heilbronn = "heilbronn"
+const heilbronn = "heilbronn";
 const hashtags = [heilbronn];
 
 const interval = "10 seconds";
@@ -38,6 +38,8 @@ const intervalCb = function (err, results) {
     console.error(err);
   } else {
     const value = Object.values(results).pop();
+    console.log({ results });
+    console.log({ value });
 
     if (value[heilbronn]) {
       sumBtc += value[heilbronn];
@@ -74,13 +76,13 @@ app.get("/twitter/test/:value", (req, res, next) => {
   }
 
   try {
-    sumBtc += Number.parseInt(value);    
+    sumBtc += Number.parseInt(value);
   } catch (error) {
-    console.error(error)
+    console.error(error);
   }
 
   io.emit("twitter-new-tweet", { sum: sumBtc }); // This will emit the event to all connected sockets
-  return res.send(200)
+  return res.send(200);
 });
 
 io.on("connection", (socket) => {
