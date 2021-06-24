@@ -24,22 +24,23 @@ const hc = new HashtagCount({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
-var hashtags = ["heilbronn"];
+const heilbronn = "heilbronn"
+const hashtags = [heilbronn];
 
-var interval = "2 seconds";
+const interval = "10 seconds";
 
 // Delete data older than this.
-var history = "5 minutes";
+const history = "5 minutes";
 
 // Called at the end of each time interval.
-var intervalCb = function (err, results) {
+const intervalCb = function (err, results) {
   if (err) {
     console.error(err);
   } else {
     const value = Object.values(results).pop();
 
-    if (value.btc) {
-      sumBtc += value.btc;
+    if (value[heilbronn]) {
+      sumBtc += value[heilbronn];
     }
 
     const cssQuery = ".twitter-element > div > span";
