@@ -26,7 +26,7 @@ const hc = new HashtagCount({
 
 let hashtags = ["heilbronn"];
 
-let interval = "10 seconds";
+let interval = "2 seconds";
 
 // Delete data older than this.
 let history = "5 minutes";
