@@ -1,6 +1,20 @@
-version: "3.7"
+version: "3.8"
 
 services:
+  node-main:
+    command: npm start
+    environment: 
+      - TWITTER_CONSUMER_KEY
+      - TWITTER_CONSUMER_SECRET
+      - TWITTER_BEARER_TOKEN
+      - TWITTER_ACCESS_TOKEN_KEY
+      - TWITTER_ACCESS_TOKEN_SECRET
+    build: 
+      context: .
+      target: api-base
+    restart: unless-stopped
+    ports:
+      - ${API_PORT}:3000
   main:
     image: ./Dockerfile
     restart: unless-stopped
