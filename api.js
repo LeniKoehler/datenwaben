@@ -24,15 +24,15 @@ const hc = new HashtagCount({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
-let hashtags = ["heilbronn"];
+var hashtags = ["heilbronn"];
 
-let interval = "2 seconds";
+var interval = "2 seconds";
 
 // Delete data older than this.
-let history = "5 minutes";
+var history = "5 minutes";
 
 // Called at the end of each time interval.
-let intervalCb = function (err, results) {
+var intervalCb = function (err, results) {
   if (err) {
     console.error(err);
   } else {
