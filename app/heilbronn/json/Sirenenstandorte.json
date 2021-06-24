@@ -21,7 +21,7 @@
     "unit": "",
     "changePerDay": "",
     "format": "string",
-    "background": "img/template.svg",
+    "background": "heilbronn/svg/sirene.svg",
     "color": "",
     "cssClass": ""
   },
