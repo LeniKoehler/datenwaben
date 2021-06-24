@@ -8,11 +8,12 @@ const rawCard = require("../../constants/card.json");
 
 async function createCard(req) {
   const deepCopy = JSON.parse(JSON.stringify(rawCard))
-  deepCopy.front.textTop = "Täglich Twitter Fun";
-  deepCopy.front.textBottom = "Twitter fun";
+  deepCopy.front.textTop = "seit Serverstart gab es ";
+  deepCopy.front.textBottom = "Tweets mit #heilbronn";
   deepCopy.front.value = "Loading ...";
-  deepCopy.front.background = "img/train.svg";
-  deepCopy.front.cssClass = "twitter-element"
+  deepCopy.front.background = "heilbronn/Svg´s/twitter.svg";
+  deepCopy.front.cssClass = "twitter-element";
+  deepCopy.back.text = "Schreibe einen Tweet mit #heilbronn und sieh wie der Zähler sich erhöht" 
   return deepCopy;
 }
 

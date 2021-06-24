@@ -89,7 +89,7 @@ async function createCard() {
   rawCard.front.textTop = "Täglich pendeln";
   rawCard.front.textBottom = "Personen in die Stadt ein.";
   rawCard.front.value = objWithEinpendler[EINPENDLER];
-  rawCard.front.background = "img/train.svg"
+  rawCard.front.background = "heilbronn/Svg´s/auto.svg"
   return rawCard;
 }
 
