@@ -31,7 +31,6 @@ jobs:
             git checkout main
             git pull
             echo 'Start main container: ---------------------------------------'
-            docker build -t datenwaben-main .
-            docker run -dp 8000:80 datenwaben-main
+            API_PORT=8008 docker-compose up --build -d node-main
             echo 'List running containers: ------------------------------------'
             docker container ls
