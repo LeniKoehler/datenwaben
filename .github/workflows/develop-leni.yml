@@ -27,6 +27,6 @@ jobs:
             git checkout develop-leni
             git pull
             echo 'Start dev container: ----------------------------------------'
-            API_PORT=8008 docker-compose up --build -d node-main
+            API_PORT=8008 docker-compose up --build -d --force-recreate node-main
             echo 'List running containers: ------------------------------------'
             docker container ls
