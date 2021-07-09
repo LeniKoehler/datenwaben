@@ -15,7 +15,7 @@
     "updated": "2021-06-05"
   },
   "front": {
-    "textTop": "Seit betreten flossen",
+    "textTop": "Seit Laden der Seite flossen",
     "textBottom": "Wasser durch den Neckar",
     "value": "",
     "unit": "l",
@@ -25,7 +25,7 @@
     "color": "none"
   },
   "back": {
-    "text": "Hier könnte ihre Werbung stehen:",
+    "text": "Täglich fließen fast 4 Millionen Liter Wasser in Heilbronn durch den Neckar.",
     "color": "#000000",
     "cssClass": ""
   }

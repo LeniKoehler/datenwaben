@@ -4,12 +4,12 @@ Die Datenwaben für Heilbronn zeigen Daten aus dem Open Data Portal Heilbronn op
 
 ## Installation
 
-1. .env Datei mit Twitter-API Keys erstellen:
-    TWITTER_CONSUMER_KEY="xyz"
-    TWITTER_CONSUMER_SECRET="xyz"
-    TWITTER_BEARER_TOKEN="xyz"
-    TWITTER_ACCESS_TOKEN_KEY="xyz"
-    TWITTER_ACCESS_TOKEN_SECRET="xyz"
+1. .env Datei mit Twitter-API Keys erstellen:  
+    TWITTER_CONSUMER_KEY="xyz"  
+    TWITTER_CONSUMER_SECRET="xyz"  
+    TWITTER_BEARER_TOKEN="xyz"  
+    TWITTER_ACCESS_TOKEN_KEY="xyz"  
+    TWITTER_ACCESS_TOKEN_SECRET="xyz"  
 2. Docker und Docker Compose installieren
 3. Docker starten
 4. In den Datenwaben Ordner navigieren.
@@ -59,7 +59,5 @@ Die Felder die später in der Wabe sichtbar sein werden sind:
 
 ## CI/CD Workflow
 
-Es wurde ein einfacher CI/CD Workflow in GitHub Actions erstellt. Die Skripte dafür befinden sich im .github Ordner.
+Es wurde ein einfacher CI/CD Workflow in GitHub Actions erstellt. Das Skript dafür befindet sich im .github Ordner.
 Beim Aktuellen Stand des GitHub Action Skripts wird jedes Mal, wenn auf den Master gepusht wird, die Action getriggert, die den neuen Stand automatisch auf den Server deployed.
-
-## Docker

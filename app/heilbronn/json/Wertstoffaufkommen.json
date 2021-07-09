@@ -6,7 +6,7 @@
   "portal": {
     "url": "https://opendata.heilbronn.de/dataset/werstoffaufkommen-heilbronn",
     "title": "Heilbronn Wertstoffaufkommen",
-    "description": "1) Heilbronn",
+    "description": "Recycling in Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
     "attribution": "Hochschule Heilbronn",
@@ -16,9 +16,9 @@
   },
   "front": {
     "textTop": "Pro Jahr fallen etwa",
-    "textBottom": "kg Wertstoff pro Kopf an.",
+    "textBottom": "Wertstoff pro Kopf an.",
     "value": "150",
-    "unit": "",
+    "unit": "kg",
     "changePerDay": "",
     "format": "string",
     "background": "heilbronn/svg/recycling.svg",

@@ -16,7 +16,7 @@
   },
   "front": {
     "textTop": "Nicht zu überhören:",
-    "textBottom": "Sirenenstandorte gibt es in Heilbronn",
+    "textBottom": "Sirenenstandorte gibt es.",
     "value": "90",
     "unit": "",
     "changePerDay": "",
@@ -26,7 +26,7 @@
     "cssClass": ""
   },
   "back": {
-    "text": "Nicht zu überhören: 90 Sirenenstandorte gibt es in Heilbronn.",
+    "text": "Nicht zu überhören: 90 Sirenenstandorte gibt es.",
     "color": "#000000",
     "cssClass": ""
   }

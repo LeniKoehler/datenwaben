@@ -113,6 +113,7 @@ async function createCard() {
   rawCard.front.textBottom = "Personen in die Stadt ein.";
   rawCard.front.value = objWithEinpendler[EINPENDLER];
   rawCard.front.background = "heilbronn/svg/auto.svg"
+  rawCard.back.text = "Daten zu Transport und Verkehr findest du auch im Open Data Portal Heilbronn!";
   return rawCard;
 }
 

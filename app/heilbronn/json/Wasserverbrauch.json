@@ -17,8 +17,8 @@
   "front": {
     "textTop": "Jeder Einwohner verbraucht",
     "textBottom": "Wasser pro Tag",
-    "value": "199 Liter",
-    "unit": "",
+    "value": "199",
+    "unit": "l",
     "changePerDay": "",
     "format": "string",
     "background": "img/water.svg",
