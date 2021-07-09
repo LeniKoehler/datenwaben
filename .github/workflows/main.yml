@@ -28,11 +28,11 @@ jobs:
           key: ${{secrets.PEM}}
           port: ${{secrets.PORT}}
           script: |
-            echo 'List the running containers: --------------------------------'
+            echo 'List the running containers: ---------------------------------'
             docker container ls
-            echo 'cd in datenwaben dir: ---------------------------------------'
+            echo 'cd in datenwaben dir: ----------------------------------------'
             cd git/datenwaben
-            echo 'Git pull from main branch: --------------------------'
+            echo 'Git pull from main branch: -----------------------------------'
             git checkout main
             git pull
             echo 'Start dev container: ----------------------------------------'
