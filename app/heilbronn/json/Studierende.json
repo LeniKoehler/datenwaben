@@ -6,11 +6,11 @@
   "portal": {
     "url": "https://opendata.heilbronn.de/dataset/studierende-heilbronn",
     "title": "Heilbronn Studierende",
-    "description": "1) Heilbronn",
+    "description": "Anzahl der Studierenden in Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-    "attribution": "Heilbronner Gruppe",
-    "author": " bgloss@web.de",
+    "attribution": "Hochschule Heilbronn",
+    "author": "magdalenakoehler@outlook.com",
     "created": "2021-04-18",
     "updated": "2021-04-18"
   },
@@ -26,7 +26,7 @@
     "cssClass": ""
   },
   "back": {
-    "text": "Universitätsstadt Heilbronn: 8597 Studierende gibt es hier.",
+    "text": "Seit dem 1. Februar 2020 ist Heilbronn eine Universitätsstadt.",
     "color": "#000000",
     "cssClass": ""
   }

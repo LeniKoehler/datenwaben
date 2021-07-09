@@ -6,18 +6,18 @@
   "portal": {
     "url": "https://opendata.heilbronn.de/dataset/sirenenstandorte-heilbronn",
     "title": "Heilbronn Sirenenstandorte",
-    "description": "1) Heilbronn",
+    "description": "Anzahl der Sirenenstandorte in Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-    "attribution": "Heilbronner Gruppe",
-    "author": " bgloss@web.de",
+    "attribution": "Hochschule Heilbronn",
+    "author": "magdalenakoehler@outlook.com",
     "created": "2021-04-18",
     "updated": "2021-04-18"
   },
   "front": {
     "textTop": "Nicht zu überhören:",
-    "textBottom": "gibt es in Heilbronn",
-    "value": "90 Sirenenstandorte",
+    "textBottom": "Sirenenstandorte gibt es in Heilbronn",
+    "value": "90",
     "unit": "",
     "changePerDay": "",
     "format": "string",

@@ -4,13 +4,13 @@
       "city": "Heilbronn"
     },
     "portal": {
-      "url": "https://stadtarchiv.heilbronn.de/startseite.html",
-      "title": "Heilbronn Studierende",
-      "description": "Heilbronn",
+      "url": "http://opendata.heilbronn.de",
+      "title": "",
+      "description": "",
       "license": "Creative Commons Namensnennung",
       "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-      "attribution": "Hochschule Heilbronn",
-      "author": "magdalenakoehler@outlook.com",
+      "attribution": "",
+      "author": "",
       "created": "2021-04-18",
       "updated": "2021-04-18"
     },
@@ -21,12 +21,12 @@
       "unit": "",
       "changePerDay": "",
       "format": "string",
-      "background": "heilbronn/svg/archiv.svg",
+      "background": "heilbronn/svg/template.svg",
       "color": "",
       "cssClass": ""
     },
     "back": {
-      "text": "Im Stadtarchiv gibt es hunderte Daten zur Geschichte Heilbronns.",
+      "text": "",
       "color": "#000000",
       "cssClass": ""
     }

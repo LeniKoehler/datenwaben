@@ -1,3 +1,13 @@
+/**
+ * Summary: This is the router for each dynamic comb for the api. This is the
+ * place where the cards receive their path that will be stated in the file
+ * cityConfig.json.
+ * 
+ * The creation of the cards in the controllers is triggered from here. 
+ * 
+ * @author Magdalena Köhler 
+ */
+
 // Relative dependencies --------------------------------------------------------------------------
 
 const express = require("express");

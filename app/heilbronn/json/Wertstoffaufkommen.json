@@ -9,15 +9,15 @@
     "description": "1) Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-    "attribution": "Heilbronner Gruppe",
-    "author": " bgloss@web.de",
+    "attribution": "Hochschule Heilbronn",
+    "author": "magdalenakoehler@outlook.com",
     "created": "2021-04-18",
     "updated": "2021-04-18"
   },
   "front": {
-    "textTop": "Im Schnitt hat jeder Einwohner",
-    "textBottom": "Wertstoffaufkommen pro Jahr",
-    "value": "150 kg",
+    "textTop": "Pro Jahr fallen etwa",
+    "textBottom": "kg Wertstoff pro Kopf an.",
+    "value": "150",
     "unit": "",
     "changePerDay": "",
     "format": "string",
@@ -26,7 +26,7 @@
     "cssClass": ""
   },
   "back": {
-    "text": "Im Schnitt hat jeder Einwohner 150 kg Wertstoffaufkommen pro Jahr.",
+    "text": "Recycling in Heilbronn: Daten dazu findet man hier.",
     "color": "#000000",
     "cssClass": ""
   }

@@ -6,11 +6,11 @@
   "portal": {
     "url": "https://opendata.heilbronn.de/dataset/pendlerverkehr-heilbronn-2017",
     "title": "Heilbronn Pendler",
-    "description": "1) Heilbronn",
+    "description": "Statische Wabe (alternativ zur dynamischen Wabe): Anzahl der Personen die nach Heilbronn einpendeln",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-    "attribution": "Heilbronner Gruppe",
-    "author": "mkoehle2@stud.hs-heilbronn.de",
+    "attribution": "Hochschule Heilbronn",
+    "author": "magdalenakoehler@outlook.com",
     "created": "2021-04-18",
     "updated": "2021-04-18"
   },

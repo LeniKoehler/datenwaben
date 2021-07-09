@@ -5,12 +5,12 @@
   },
   "portal": {
     "url": "https://www.heilbronn.de/rathaus/aktuelles/open-data.html",
-    "title": "Heilbronn Hochschule",
-    "description": "1) Heilbronn",
+    "title": "Stadt Heilbronn",
+    "description": "Stadt Heilbronn heller Hintergrund",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-    "attribution": "Heilbronner Gruppe",
-    "author": "mkoehle2@stud.hs-heilbronn.de",
+    "attribution": "Hochschule Heilbronn",
+    "author": "magdalenakoehler@outlook.com",
     "created": "2021-04-18",
     "updated": "2021-04-18"
   },
@@ -26,7 +26,7 @@
     "cssClass": ""
   },
   "back": {
-    "text": "Heilbronn.",
+    "text": "Die Stadt Heilbronn stellt ihre Daten im Open Data Portal Heilbronn bereit.",
     "color": "#000000",
     "cssClass": ""
   }

@@ -1,3 +1,26 @@
+/** 
+ * Summary: This code uses the api to fetch data from opendata.heilbronn.de, 
+ * parses it from csv to json and creates a card as defined in the function
+ * "createCard()".
+ * 
+ * How to use: 
+ * 1. Change the constant "URL" to the resource URL. 
+ * 2. Change the constant "VALUE" to the key of the value you want to read from
+ *    the parsed json file. 
+ * 3. Edit the attributes of the card to be shown by adapting the contents in
+ *    the function below "createCard()".
+ * 
+ * Additional information for step 2: To model how the csv will be parsed, go 
+ * to https://csv.js.org/convert/, insert the content of the csv file under 
+ * "Input" and adapt the Options (see in function below "getValue(csvData)").
+ * See the result under "Output" and find the value you want. You may have to
+ * use different Options in order to get a useful output, depending on the csv 
+ * content structure.
+ * 
+ * @author Magdalena Köhler 
+ * @see https://github.com/LeniKoehler/
+*/
+
 // Relative dependencies --------------------------------------------------------------------------
 
 const axios = require("axios");
