@@ -4,13 +4,13 @@
     "city": "Heilbronn"
   },
   "portal": {
-    "url": "https://www.hs-heilbronn.de/?q=",
+    "url": "https://opendata.heilbronn.de/",
     "title": "Heilbronn Hochschule",
-    "description": "1) Heilbronn",
+    "description": "Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-    "attribution": "Heilbronner Gruppe",
-    "author": " bgloss@web.de",
+    "attribution": "Hochschule Heilbronn",
+    "author": "magdalenakoehler@outlook.com",
     "created": "2021-04-18",
     "updated": "2021-04-18"
   },
@@ -26,7 +26,7 @@
     "cssClass": ""
   },
   "back": {
-    "text": "Hochschule Heilbronn.",
+    "text": "Das Projekt entstand durch eine Kooperation der Stadt Heilbronn und der HHN.",
     "color": "#000000",
     "cssClass": ""
   }

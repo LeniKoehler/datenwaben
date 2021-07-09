@@ -1,6 +1,6 @@
 {
 	"meta": {
-		"mail": "bgloss@web.de",
+		"mail": "bgloss@web.de, magdalenakoehler@outlook.de, dates@stud.hs-heilbronn.de",
 		"twitter": "",
 		"github": "https://github.com/tursics/data-dashboard/",
 		"showMenuCity": true,
@@ -12,7 +12,6 @@
 		"ckanDataset": "https://opendata.heilbronn.de/dataset/"
 	},
 	"cards": [
-
 		"heilbronn/json/HNhell.json",
 		"heilbronn/json/Hhndunkelblau.json",
 		"heilbronn/json/Steuern.json",
@@ -22,17 +21,14 @@
 		"api/twitter/heilbronn",
 		"heilbronn/json/Naturschutzgebiete.json",
 		"heilbronn/json/Denkmaeler.json",
-		"heilbronn/json/Wasserverbrauch.json",
+		"heilbronn/json/Archiv.json",
 		"heilbronn/json/Feuerwehreinsaetze.json",
 		"heilbronn/json/Wohngebaeude.json",
 		"heilbronn/json/Namensgebung.json",
-		"heilbronn/json/Archiv.json",
-		"heilbronn/json/Wasserschutzgebiete.json",
-		"heilbronn/json/Hunde.json",
-		"heilbronn/json/Stadtbibliothek.json",
-		"heilbronn/json/Fahrradweg.json",
-		"heilbronn/json/Stolpersteine.json",
+		"heilbronn/json/Wasserverbrauch.json",
 		"heilbronn/json/Wertstoffaufkommen.json",
+		"heilbronn/json/Stolpersteine.json",
+		"heilbronn/json/Wasserschutzgebiete.json",
 		"heilbronn/json/Sirenenstandorte.json",
 		"heilbronn/json/Studierende.json",		
 		"heilbronn/json/Team1_Wabe.json"

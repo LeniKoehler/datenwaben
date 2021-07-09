@@ -1,1 +1,0 @@
-Empfehlung von Magdalena Köhler ist, den Vorschlägen von https://swagger.io/resources/articles/best-practices-in-api-design/ zu folgen und in Zukunft die API dahingehend weiterzuentwickeln.

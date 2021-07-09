@@ -6,11 +6,11 @@
   "portal": {
     "url": "https://opendata.heilbronn.de/dataset/europawahl-2019",
     "title": "Heilbronn Wahlbeteiligung",
-    "description": "1) Heilbronn",
+    "description": "Statische Wabe als Alternative zur dynamischen: Anzahl der Wähler bei EU-Wahl in Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-    "attribution": "Heilbronner Gruppe",
-    "author": " bgloss@web.de",
+    "attribution": "Hochschule Heilbronn",
+    "author": "magdalenakoehler@outlook.com",
     "created": "2021-04-18",
     "updated": "2021-04-18"
   },
@@ -26,7 +26,7 @@
     "cssClass": ""
   },
   "back": {
-    "text": "Bei der Europawahl 2019 haben 42.835(~56% der Wahlberechtigten)* Personen an der Wahl teilgenommen.",
+    "text": "In Deutschland lag die Wahlbeteiligung bei 61%. Wie es in Heilbronn aussieht, zeigt dieser Datensatz.",
     "color": "#000000",
     "cssClass": ""
   }

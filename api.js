@@ -1,3 +1,15 @@
+/**
+ * Summary: This is the api for proving the concept of "real-time wombs".
+ * This has been achieved by implementing a socket connection that is connected
+ * to the Twitter API.
+ * 
+ * Other use cases for real-time wombs can be: number of parking lots available, 
+ * number of persons waiting at the car registration office, number of visitors 
+ * at public pools etc. 
+ * 
+ * @author Magdalena Köhler 
+ */
+
 // Relative dependencies --------------------------------------------------------------------------
 require("dotenv").config();
 const express = require("express");

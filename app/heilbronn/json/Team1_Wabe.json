@@ -5,12 +5,12 @@
     },
     "portal": {
       "url": "",
-      "title": "Heilbronn Studierende",
-      "description": "1) Heilbronn",
+      "title": "Datenwaben Umsetzung für HN durch Studenten",
+      "description": "Die Studierenden, die die Seite für Heilbronn umgesetzt haben",
       "license": "Creative Commons Namensnennung",
       "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-      "attribution": "Heilbronner Gruppe",
-      "author": "mkoehle2@stud.hs-heilbronn.de",
+      "attribution": "Hochschule Heilbronn",
+      "author": "magdalenakoehler@outlook.com",
       "created": "2021-04-18",
       "updated": "2021-04-18"
     },
@@ -26,7 +26,7 @@
       "cssClass": ""
     },
     "back": {
-      "text": "Benjamin Gloß, Dennis Ates, Magdalena Köhler von der HHN.",
+      "text": "Benjamin Gloß, Dennis Ates, M. Köhler von der HHN.",
       "color": "#000000",
       "cssClass": ""
     }

@@ -6,11 +6,11 @@
   "portal": {
     "url": "https://opendata.heilbronn.de/dataset/stolpersteine-heilbronn",
     "title": "Heilbronn Stolpersteine",
-    "description": "1) Heilbronn",
+    "description": "Anzahl der Stolpersteine in Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-    "attribution": "Heilbronner Gruppe",
-    "author": " bgloss@web.de",
+    "attribution": "Hochschule Heilbronn",
+    "author": "magdalenakoehler@outlook.com",
     "created": "2021-04-18",
     "updated": "2021-04-18"
   },
@@ -26,7 +26,7 @@
     "cssClass": ""
   },
   "back": {
-    "text": "Auf den Straßen Heilbronns kann man 204 Stopersteine finden.",
+    "text": "Mit den Steinen vor den Häusern wird die Erinnerung an die Menschen lebendig, die einst dort wohnten.",
     "color": "#000000",
     "cssClass": ""
   }

@@ -10,13 +10,13 @@
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
     "attribution": "Heilbronner Studium Gruppe",
-    "author": " bgloss@web.de",
+    "author": "bgloss@web.de",
     "created": "2021-06-05",
     "updated": "2021-06-05"
   },
   "front": {
-    "textTop": "Die Stadt nimmt gerade",
-    "textBottom": "Steuern ein",
+    "textTop": "Seit Laden der Seite wurden",
+    "textBottom": "Steuern eingenommen.",
     "value": "",
     "unit": "€",
     "changePerDay": "1871.87",
@@ -25,7 +25,7 @@
     "color": "none"
   },
   "back": {
-    "text": "Hier könnte ihre Werbung stehen:",
+    "text": "Den Haushalt der Stadt HN findet man im Open Data Portal Heilbronn",
     "color": "#000000",
     "cssClass": ""
   }

@@ -6,11 +6,11 @@
   "portal": {
     "url": "",
     "title": "Heilbronn Stadtbibliothek",
-    "description": "1) Heilbronn",
+    "description": "Idee für Wabe: Anzahl Bücher in der Stadtbibliothek Heilbronn",
     "license": "Creative Commons Namensnennung",
     "licenseURL": "http://creativecommons.org/licenses/by/3.0/de/",
-    "attribution": "Heilbronner Gruppe",
-    "author": " bgloss@web.de",
+    "attribution": "Hochschule Heilbronn",
+    "author": "magdalenakoehler@outlook.com",
     "created": "2021-04-18",
     "updated": "2021-04-18"
   },
@@ -26,7 +26,7 @@
     "cssClass": ""
   },
   "back": {
-    "text": "In der Stadtbibliothek kann man zwischen xxx Büchern wählen.",
+    "text": "Die Stadtbibliothek ist der ideale Ort für jeden Bücherwurm.",
     "color": "#000000",
     "cssClass": ""
   }
