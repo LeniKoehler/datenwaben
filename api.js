@@ -7,6 +7,8 @@
  * number of persons waiting at the car registration office, number of visitors 
  * at public pools etc. 
  * 
+ * https://socket.io/docs/v4
+ * 
  * @author Magdalena Köhler 
  */
 
