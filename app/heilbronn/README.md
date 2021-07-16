@@ -15,6 +15,8 @@ Die Datenwaben für Heilbronn zeigen Daten aus dem Open Data Portal Heilbronn op
 4. In den Datenwaben Ordner navigieren.
 5. Folgenden Befehl ausführen: sudo API_PORT=8008 docker-compose up —build -d —force-recreate node-main
 
+Alternativ einfach mit NPM auf Port 3000 starten (npm install + npm start). Der Port kann in datenwaben/api.js Zeile 104 geändert werden.
+
 ## Wie füge ich eine neue Wabe hinzu?
 
 ### Dateistruktur
